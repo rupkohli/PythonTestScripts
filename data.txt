@@ -1,0 +1,26 @@
+{"FORMULA_COMPANIES": [
+    {
+        "FORMULA_ID": 1,
+        "HID": "HLOCAL",
+        "FORMULA_MILK_TYPE": "First Infant",
+        "FORMULA_COMPANY_NAME": "Abbott-Ross"
+    },
+    {
+        "FORMULA_ID": 2,
+        "HID": "HLOCAL",
+        "FORMULA_MILK_TYPE": "Anti-Reflux",
+        "FORMULA_COMPANY_NAME": "Abbott-Ross"
+    },
+    {
+        "FORMULA_ID": 3,
+        "HID": "HLOCAL",
+        "FORMULA_MILK_TYPE": "Comfort",
+        "FORMULA_COMPANY_NAME": "Boots"
+    },
+    {
+        "FORMULA_ID": 4,
+        "HID": "HLOCAL",
+        "FORMULA_MILK_TYPE": "Gallia",
+        "FORMULA_COMPANY_NAME": "Lactose-Free"
+    }
+    ]}
