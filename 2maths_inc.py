@@ -1,5 +1,6 @@
 #program to write numbers in increasing order
 import sys
+import traceback
 import random
 
 
@@ -16,7 +17,8 @@ def orderInc():
 	numb = 1
 	while numb != "0":
 		numb = input()
-		numList = numList + [numb]
+		if numb != "0":
+			 numList = numList + [numb]
 
 	
 	numList.sort()
@@ -49,7 +51,7 @@ def orderInc():
 
 ###############################
 #
-#
+#Adding 2 single digit numbers
 #
 ###############################
 def singleDigitAdd():
@@ -76,21 +78,38 @@ def singleDigitAdd():
 #
 ###############################
 def numberStoriesAdd():
-	# messages = ['It is certain',
-	#  'It is decidedly so',
-	#  'Yes definitely',
-	#  'Reply hazy try again',
-	#  'Ask again later',
-	#  'Concentrate and ask again',
-	#  'My reply is no',
-	#  'Outlook not so good',
-	#  'Very doubtful']
-	# print(messages[random.randint(0, len(messages) - 1)])
+	storiesStart = ['Jane has',
+	 'Mary ate ',
+	 'Tim has',
+	 'I have',
+	 'Kartik has',
+	 'Pam has',
+	 'Susan has',
+	 'Chitra has',
+	 'Tom has']
+	
+	objects = ['Idlies', 
+	'cookies',
+	'apples',
+	'walnuts',
+	'balls',
+	'cake slices',
+	'mathis']
 
-	print ("Add the following numbers")
+	storiesPreEnd = "How many"  
+	storiesEnd = "do I have in all?"  
+	
+	quesBeg = storiesStart[random.randint(0, len(storiesStart) - 1)]
+	quesObj = objects[random.randint(0, len(objects) - 1)]
 
+	
 	num1 = random.randint(0, 9)
 	num2 = random.randint(0, 9)
+	
+
+	print (quesBeg , str(num1), quesObj,". I bought",
+	str(num2), "more", storiesPreEnd, quesObj, storiesEnd, "\n")
+
 	print(str(num1) , " + ", str(num2), " = ")
 	
 	sumNum = num1 + num2
@@ -122,43 +141,60 @@ def doubleDigitAdd():
 	
 	print ("Correct answer!!\n")
 
+#######################
+#MAIN CODE
+#
+#######################
 # print("Lets check your addition")
 
-playAdd = 1
 
 print ("Maths Fun\n")
 
-print ("Lets arrange the numbers in order - hold your breath and think of 5 numbers\n")
-while (playAdd):
-	orderInc()
+playMath = 1
+while(playMath):
 
-	print ("Play again? Enter 1 else press the <return> key to exit game")
-	playAdd = input()
+	print ("Select option to play -\n1. Arrange numbers in Order\n2. Addition Level I - Simple Addition\n3. Addition Level II - Number stories\n4. Addition Level III - 2 Digit Addition\n")
+	mathFunX = input()
 
-playAdd = 1
+	if mathFunX == '1':
+		playAdd = 1
+		print ("Lets arrange the numbers in order - hold your breath and think of a few numbers, end list with 0\n")
+		while (playAdd):
+			orderInc()
 
-print ("Addition Level I - Simple Addition")
-while (playAdd):
-	singleDigitAdd()
+			print ("Play again? Enter 1 else press the <return> key to exit level")
+			playAdd = input()
 
-	print ("Play again? Enter 1 else press the <return> key to exit game")
-	playAdd = input()
+	elif mathFunX == '2':
 
-playAdd = 1
+		playAdd = 1
+		print ("Addition Level I - Simple Addition")
 
-print ("Addition Level II - Number stories")
-while (playAdd):
-	numberStoriesAdd()
+		while (playAdd):
+			singleDigitAdd()
 
-	print ("Play again? Enter 1 else press the <return> key to exit game")
-	playAdd = input()
+			print ("Play again? Enter 1 else press the <return> key to exit level")
+			playAdd = input()
 
-playAdd = 1
+	elif mathFunX == '3':
 
-print ("Addition Level III - 2 Digit Addition")
-while (playAdd):
-	doubleDigitAdd()
+		playAdd = 1
+		print ("Addition Level II - Number stories")
+		while (playAdd):
+			numberStoriesAdd()
 
-	print ("Play again? Enter 1 else press the <return> key to exit game")
-	playAdd = input()
+			print ("Play again? Enter 1 else press the <return> key to exit level")
+			playAdd = input()
 
+	elif mathFunX == '4':
+
+		playAdd = 1
+		print ("Addition Level III - 2 Digit Addition")
+		while (playAdd):
+			doubleDigitAdd()
+
+			print ("Play again? Enter 1 else press the <return> key to exit level")
+			playAdd = input()
+
+	print("Do you want to play MATHS FUN again (1/0)?")
+	playMath = input()
