@@ -129,7 +129,10 @@ def doubleDigitAdd():
 
 	num1 = random.randint(0, 99)
 	num2 = random.randint(0, 99)
-	print(str(num1) , " + ", str(num2), " = ")
+	if num1 < 10:
+		print("   ", str(num2) , "\n + ", str(num1), "\n", "-"*5)
+	else:
+		print("   ", str(num1) , "\n + ", str(num2), "\n", "-"*5)
 	
 	sumNum = num1 + num2
 	
