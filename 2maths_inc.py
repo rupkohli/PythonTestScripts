@@ -130,6 +130,11 @@ def numberStoriesAdd():
 	
 	print ("Correct answer!!\n")
 
+###############################
+#
+#Working with 2-digit addition
+#
+###############################
 
 def doubleDigitAdd():
 
@@ -153,6 +158,7 @@ def doubleDigitAdd():
 	print ("Correct answer!!\n")
 
 #######################
+#
 #MAIN CODE
 #
 #######################
