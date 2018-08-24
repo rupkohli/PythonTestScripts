@@ -82,7 +82,7 @@ def singleDigitAdd():
 
 ###############################
 #
-#
+#Working with number stories
 #
 ###############################
 def numberStoriesAdd():
@@ -111,8 +111,8 @@ def numberStoriesAdd():
 	quesObj = objects[random.randint(0, len(objects) - 1)]
 
 	
-	num1 = random.randint(0, 9)
-	num2 = random.randint(0, 9)
+	num1 = random.randint(1, 9)
+	num2 = random.randint(1, 9)
 	
 
 	print (quesBeg , str(num1), quesObj,". I bought",
@@ -130,6 +130,11 @@ def numberStoriesAdd():
 	
 	print ("Correct answer!!\n")
 
+###############################
+#
+#Working with 2-digit addition
+#
+###############################
 
 def doubleDigitAdd():
 
@@ -153,6 +158,7 @@ def doubleDigitAdd():
 	print ("Correct answer!!\n")
 
 #######################
+#
 #MAIN CODE
 #
 #######################
