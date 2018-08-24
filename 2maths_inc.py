@@ -1,4 +1,11 @@
-#program to write numbers in increasing order
+###############################
+#
+# MATHS FUN
+#
+# Rupinder Kohli - 23 Aug 2018
+#
+# For Kirat
+###############################
 import sys
 import traceback
 import random
@@ -8,16 +15,17 @@ global numList
 
 ###############################
 #
-#
+# Arrange numbers in order
 #
 ###############################
 def orderInc():
 	#print ("enter a list of numbers and i will arrange them in increasing order")
 	numList = []
 	numb = 1
-	while numb != "0":
+	while numb != 0:
 		numb = input()
-		if numb != "0":
+		numb = int(numb)
+		if numb != 0:
 			 numList = numList + [numb]
 
 	
@@ -28,7 +36,7 @@ def orderInc():
 
 	print("Are the numbers shown correctly in increasing order(Y / N) ?")
 	ans = input()
-	if ans == 'Y':
+	if ans == 'Y' or ans == 'y':
 		print("Bravo") 
 	else: 
 		print("Wrong answer computer ji\n")
@@ -41,7 +49,7 @@ def orderInc():
 
 	print("Are the numbers shown correctly in decreasing order(Y / N) ?")
 	ans = input()
-	if ans == 'Y':
+	if ans == 'Y' or ans == 'y':
 		print("Bravo") 
 	else: 
 		print("Wrong answer computer ji\n")
@@ -113,7 +121,7 @@ def numberStoriesAdd():
 	print(str(num1) , " + ", str(num2), " = ")
 	
 	sumNum = num1 + num2
-	
+	print("    ")
 	getSum = input()
 
 	while  int(getSum) != int(sumNum):
@@ -201,3 +209,4 @@ while(playMath):
 
 	print("Do you want to play MATHS FUN again (1/0)?")
 	playMath = input()
+
