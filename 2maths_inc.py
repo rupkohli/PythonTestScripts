@@ -212,7 +212,7 @@ while(playMath):
 
 			print ("Play again? Enter 1 else press the <return> key to exit level")
 			playAdd = input()
-
-	print("Do you want to play MATHS FUN again (1/0)?")
-	playMath = input()
-
+	elif mathFunX == '':
+		print("Do you want to play MATHS FUN again (1/0)?")
+		playMath = input()
+	print ("See you again.")
