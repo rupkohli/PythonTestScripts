@@ -1,9 +1,9 @@
 #! python3
 import json
 
-# pythonValue = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie', 'felineIQ': None}
-# stringOfJsonData = json.dumps(pythonValue)
-# print(stringOfJsonData)
+pythonValue = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie', 'felineIQ': None}
+stringOfJsonData = json.dumps(pythonValue)
+print(stringOfJsonData)
 
 with open('data.txt') as json_file:  
     data = json.load(json_file)
