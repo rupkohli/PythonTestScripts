@@ -1,0 +1,80 @@
+#! python3
+import json
+
+# pythonValue = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie', 'felineIQ': None}
+# stringOfJsonData = json.dumps(pythonValue)
+# print(stringOfJsonData)
+
+with open('data.txt') as json_file:  
+    data = json.load(json_file)
+#    print(data)
+
+    for p in data['FORMULA_COMPANIES']:
+        print('FORMULA_ID: ' + str(p['FORMULA_ID']))
+        print('HID: ' + str(p['HID']))
+        print('FORMULA_MILK_TYPE: ' + str(p['FORMULA_MILK_TYPE']))
+        print('')
+
+
+# WORKING CODE
+# #! python3
+# # quickWeather.py - Prints the weather for a location from the command line.
+# import json, requests, sys
+# # Compute location from command line arguments.
+# if len(sys.argv) < 2:
+#  print('Usage: quickWeather.py location')
+#  sys.exit()
+# location = ' '.join(sys.argv[1:])
+
+# # TODO: Download the JSON data from OpenWeatherMap.org's API.
+
+# # Download the JSON data from OpenWeatherMap.org's API.
+# #url ='http://api.openweathermap.org/data/2.5/forecast/daily?q=%s&cnt=3' % (location)
+# url = 'http://api.openweathermap.org/data/2.5/forecast?id=1271951&APPID=66788e7dbdbff35e28e203c00c6b400b' 
+
+# response = requests.get(url)
+# response.raise_for_status()
+
+# # Load JSON data into a Python variable.
+# weatherData = json.loads(response.text)
+
+# # Print weather descriptions. 
+# w = weatherData['list']
+# print('Current weather in %s:' % (location))
+# print(w[0]['weather'][0]['main'], '-', w[0]['weather'][0]['description'])
+# print()
+# print('Tomorrow:')
+# print(w[1]['weather'][0]['main'], '-', w[1]['weather'][0]['description'])
+# print()
+# print('Day after tomorrow:')
+# print(w[2]['weather'][0]['main'], '-', w[2]['weather'][0]['description'])
+
+#############################################
+# data.txt
+# {"FORMULA_COMPANIES": [
+#     {
+#         "FORMULA_ID": 1,
+#         "HID": "HLOCAL",
+#         "FORMULA_MILK_TYPE": "First Infant",
+#         "FORMULA_COMPANY_NAME": "Abbott-Ross"
+#     },
+#     {
+#         "FORMULA_ID": 2,
+#         "HID": "HLOCAL",
+#         "FORMULA_MILK_TYPE": "Anti-Reflux",
+#         "FORMULA_COMPANY_NAME": "Abbott-Ross"
+#     },
+#     {
+#         "FORMULA_ID": 3,
+#         "HID": "HLOCAL",
+#         "FORMULA_MILK_TYPE": "Comfort",
+#         "FORMULA_COMPANY_NAME": "Boots"
+#     },
+#     {
+#         "FORMULA_ID": 4,
+#         "HID": "HLOCAL",
+#         "FORMULA_MILK_TYPE": "Gallia",
+#         "FORMULA_COMPANY_NAME": "Lactose-Free"
+#     }
+#     ]}
+

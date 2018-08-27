@@ -1,0 +1,323 @@
+{
+        "QID": 0,
+        "QUANTITY_UNIT": "ml",
+        
+        "LID": "1533204000000",
+        
+        "IS_FED": false,
+        "EXPIRY": "1533549600000",
+        "MID": 6,
+        "BIN_NUMBER": null,
+        "FORMULA_ID": null,
+        "IS_EXPIRED": false,
+        "START_TIME": "1533204000000",
+        "BREAST_SIDE": "BOTH",
+        "HID": "HDEV",
+        "IS_FORTIFIER": false,
+        "SUBID": 4962,
+        "IS_COLOSTRUM": null,
+        "IS_FORE_MILK": null,
+        "IS_HIND_MILK": null,
+        "CHECK_IN_DATE": "1533204669035",
+        "DONOR_BANK_ID": null,
+        "IS_DONOR_MILK": false,
+        "IS_WHOLE_MILK": null,
+        "STORAGE_NAME": "HMMC Fridge1",
+        "IS_BREAST_MILK": true,
+        
+        "QUANTITY_VALUE": 25,
+        
+        "IS_FORMULA_MILK": false,
+        "BOTTLE_LOCATION": "HMMC Fridge1",
+        "DONOR_BANK_NAME": null,
+        "IS_SKIMMED_MILK": null,
+        "IS_HOME_FREEZER": false,
+        "NICU_STORAGE_ID": 1,
+       
+        "IS_CREATOR_NURSE": false,
+       
+        "FORMULA_MILK_TYPE": null,
+        "IS_ON_MEDICATION": null,
+        "IS_HOME_AVAILABLE": false,
+        "IS_NICU_AVAILABLE": true,
+        "DONOR_BATCH_EXPIRY": null,
+        "DONOR_BATCH_NUMBER": null,
+        "DONOR_BANK_MILK_TYPE": null,
+        "FORMULA_COMPANY_NAME": null,
+        "FORMULA_BATCH_EXPIRY": null,
+        "FORMULA_BATCH_NUMBER": null,
+        "HAS_SUBSTANCE_THAWED": false,
+        "FORTIFIER_BATCH_EXPIRY": null,
+        "FORTIFIER_BATCH_NUMBER": null,
+        "IS_NICU_STORAGE_FREEZER": false,
+        "FORTIFIERS": null
+    }
+]
+
+
+
+
+{
+        "QID": 0,
+        "QUANTITY_UNIT": "ml",
+        "LID": null,
+        "IS_FED": false,
+        "EXPIRY": "1533982404767",
+        "MID": 10,
+        "FORMULA_ID": null,
+        "IS_EXPIRED": false,
+        "START_TIME": null,
+        "BREAST_SIDE": null,
+        "HID": "HLOCAL",
+        "STORAGE_NAME": null,
+        "SUBID": 452,
+        "IS_COLOSTRUM": null,
+        "DONOR_BANK_ID": 2,
+        "IS_DONOR_MILK": true,
+        "CHECK_IN_DATE": null,
+        "IS_BREAST_MILK": false,
+        "QUANTITY_VALUE": 2,
+        "IS_FORMULA_MILK": null,
+        "IS_HOME_FREEZER": null,
+        "NICU_STORAGE_ID": null,
+        "DONOR_BANK_NAME": "North East",
+        "IS_CREATOR_NURSE": false,
+        "FORMULA_MILK_TYPE": null,
+        "IS_HOME_AVAILABLE": null,
+        "IS_NICU_AVAILABLE": true,
+        "DONOR_BATCH_EXPIRY": "1533809604767",
+        "DONOR_BATCH_NUMBER": "B2",
+        "DONOR_BANK_MILK_TYPE": "Regular Term",
+        "FORMULA_COMPANY_NAME": null,
+        "FORMULA_BATCH_EXPIRY": null,
+        "FORMULA_BATCH_NUMBER": null,
+        "HAS_SUBSTANCE_THAWED": true,
+        "IS_NICU_STORAGE_FREEZER": false,
+        "FORTIFIERS": null
+    },
+
+
+
+
+
+
+
+
+
+    [
+    {
+        "PRACTITIONER_ID": 1,
+        "HID": "HLOCAL",
+        "EMAIL": "nurse@hospital.com",
+        "PHONE_NUMBER": "12152526186",
+        "NID": "NURSE1",
+        "NAME": "NURSEA",
+        "ADDRESS": "PALLATE TOWN",
+        "DEVICE_ID": null,
+        "PASSWORD_CHANGE_NID": null,
+        "PASSWORD_CHANGE_DATE": null,
+        "STATUS": true,
+        "APP_CONFIG": {
+            "CLIENT_SECRET": "sec-c-NDYxYmY0MjktOGRmYy00N2M2LWE3YTktNzBkOWU2ODNhNDNi",
+            "SCANDIT_KEY": "TGG4W4M3nYCvz2UaxaCS2noXmbz+ws14JmRo5bP0ihg",
+            "PUBNUB_PUBLISH_KEY": "pub-c-0d3cf3da-cbd8-41ab-90d3-26e205330cd3",
+            "PUBNUB_SUBSCRIBE_KEY": "sub-c-bcec5324-150e-11e7-bc52-02ee2ddab7fe",
+            "LATEST_KARE_NURSE_VERSION": "7.8.0",
+            "LATEST_KARE_NURSE_FORCED_VERSION": "7.5.0"
+        },
+        "FORTIFIERS": [
+            {
+                "FORTIFIER_ID": 1,
+                "NAME": "HMF",
+                "BRAND": null,
+                "CALORIE_COUNT": 22,
+                "VOLUME_TO_MIX": 50,
+                "UNIT": "PKT",
+                "UNIT_COUNT": 1,
+                "FORTIFIER_EXPIRY": "86400000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 2,
+                "NAME": "HMF",
+                "BRAND": null,
+                "CALORIE_COUNT": 24,
+                "VOLUME_TO_MIX": 50,
+                "UNIT": "PKT",
+                "UNIT_COUNT": 2,
+                "FORTIFIER_EXPIRY": "86400000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 3,
+                "NAME": "Prolacta+4",
+                "BRAND": null,
+                "CALORIE_COUNT": 24,
+                "VOLUME_TO_MIX": 80,
+                "UNIT": "BOTTLE",
+                "UNIT_COUNT": 1,
+                "FORTIFIER_EXPIRY": "172800000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 4,
+                "NAME": "Prolacta+6",
+                "BRAND": null,
+                "CALORIE_COUNT": 26,
+                "VOLUME_TO_MIX": 70,
+                "UNIT": "BOTTLE",
+                "UNIT_COUNT": 2,
+                "FORTIFIER_EXPIRY": "172800000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 5,
+                "NAME": "Prolacta+8",
+                "BRAND": null,
+                "CALORIE_COUNT": 28,
+                "VOLUME_TO_MIX": 60,
+                "UNIT": "BOTTLE",
+                "UNIT_COUNT": 0.5,
+                "FORTIFIER_EXPIRY": "172800000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 6,
+                "NAME": "Prolacta+10",
+                "BRAND": null,
+                "CALORIE_COUNT": 30,
+                "VOLUME_TO_MIX": 50,
+                "UNIT": "BOTTLE",
+                "UNIT_COUNT": 1,
+                "FORTIFIER_EXPIRY": "172800000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 7,
+                "NAME": "Trans",
+                "BRAND": null,
+                "CALORIE_COUNT": 22,
+                "VOLUME_TO_MIX": 75,
+                "UNIT": "TSP",
+                "UNIT_COUNT": 0.5,
+                "FORTIFIER_EXPIRY": "86400000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 8,
+                "NAME": "Trans",
+                "BRAND": null,
+                "CALORIE_COUNT": 24,
+                "VOLUME_TO_MIX": 45,
+                "UNIT": "TSP",
+                "UNIT_COUNT": 0.5,
+                "FORTIFIER_EXPIRY": "86400000",
+                "DISPLAY_ID": null
+            },
+            {
+                "FORTIFIER_ID": 9,
+                "NAME": "Other",
+                "BRAND": null,
+                "CALORIE_COUNT": null,
+                "VOLUME_TO_MIX": null,
+                "UNIT": null,
+                "UNIT_COUNT": null,
+                "FORTIFIER_EXPIRY": "86400000",
+                "DISPLAY_ID": null
+            }
+        ],
+        "DONOR_BANKS": [
+            {
+                "DONOR_BANK_ID": 1,
+                "HID": "HLOCAL",
+                "DONOR_BANK_NAME": "North East",
+                "DONOR_BANK_ADDRESS": "NEW YORK",
+                "DONOR_BANK_MILK_TYPE": "Preterm",
+                "DONOR_BANK_THAW_EXPIRY": 259200000
+            },
+            {
+                "DONOR_BANK_ID": 2,
+                "HID": "HLOCAL",
+                "DONOR_BANK_NAME": "North East",
+                "DONOR_BANK_ADDRESS": "NEW YORK",
+                "DONOR_BANK_MILK_TYPE": "Regular Term",
+                "DONOR_BANK_THAW_EXPIRY": 259200000
+            },
+            {
+                "DONOR_BANK_ID": 3,
+                "HID": "HLOCAL",
+                "DONOR_BANK_NAME": "Three Rivers",
+                "DONOR_BANK_ADDRESS": "PHILADELPHIA",
+                "DONOR_BANK_MILK_TYPE": "Preterm",
+                "DONOR_BANK_THAW_EXPIRY": 259200000
+            },
+            {
+                "DONOR_BANK_ID": 4,
+                "HID": "HLOCAL",
+                "DONOR_BANK_NAME": "3 Rivers",
+                "DONOR_BANK_ADDRESS": "PHILADELPHIA",
+                "DONOR_BANK_MILK_TYPE": "Term Colostrum",
+                "DONOR_BANK_THAW_EXPIRY": 259200000
+            },
+            {
+                "DONOR_BANK_ID": 5,
+                "HID": "HLOCAL",
+                "DONOR_BANK_NAME": "3 Rivers",
+                "DONOR_BANK_ADDRESS": "PHILADELPHIA",
+                "DONOR_BANK_MILK_TYPE": "Regular Term",
+                "DONOR_BANK_THAW_EXPIRY": 259200000
+            }
+        ],
+        "SESSION_TOKEN": "855f0a6cb8d7a837dc40d1ad8246499499122599fefa788aa2ab59aa500ea9c486d023d875baeac3340a2eac8d4ccc1d11c328d1b9c87ec503a732ec311e176865cbaed980846ba8e0217c5b936ee23fb4cd6b3711baaced3a9caf459344ece59649be81a452319a97e8bd6c4fa1fba42d79e503d1969a4278b913a08fc916058b06fb167fa649b71623a611dea3e7049ab588d1d748690b5bc80bd321a744ec00a18c0675a215e50c77ce2d80b4fc7bf2537b",
+        "FORMULA_COMPANIES": [
+            {
+                "FORMULA_ID": 1,
+                "HID": "HLOCAL",
+                "FORMULA_MILK_TYPE": "First Infant",
+                "FORMULA_COMPANY_NAME": "Abbott-Ross"
+            },
+            {
+                "FORMULA_ID": 2,
+                "HID": "HLOCAL",
+                "FORMULA_MILK_TYPE": "Anti-Reflux",
+                "FORMULA_COMPANY_NAME": "Abbott-Ross"
+            },
+            {
+                "FORMULA_ID": 3,
+                "HID": "HLOCAL",
+                "FORMULA_MILK_TYPE": "Comfort",
+                "FORMULA_COMPANY_NAME": "Boots"
+            },
+            {
+                "FORMULA_ID": 4,
+                "HID": "HLOCAL",
+                "FORMULA_MILK_TYPE": "Gallia",
+                "FORMULA_COMPANY_NAME": "Lactose-Free"
+            }
+        ],
+        "ORGANIZATION_CONFIG": {
+            "HID": "HLOCAL",
+            "BARCODE_TYPE": "QR_CODE",
+            "BARCODE_SIZE": "23V",
+            "BARCODE_COUNTER": 15,
+            "FREEZER_EXPIRY": "15552000000",
+            "FRIDGE_EXPIRY": "259200000",
+            "THAWED_EXPIRY": "86400000",
+            "AUTO_LOGOUT_TIME": 300000,
+            "COLOSTRUM_LIMIT": 40,
+            "LOW_STOCK_THRESHOLD": 5
+        },
+        "UNSEEN_NOTIFICATION_COUNT": 0,
+        "ROLE_ID": 1,
+        "ROLE_NAME": "NURSE",
+        "HAS_KARE_ACCESS": true,
+        "HAS_KLASSIFY_ACCESS": true,
+        "HAS_KONNECT_ACCESS": true,
+        "HAS_KLICK_ACCESS": true,
+        "HAS_KOUNT_ACCESS": true,
+        "HAS_DONOR_ACCESS": true,
+        "HAS_ADMIN_ACCESS": false,
+        "HAS_FORMULA_ACCESS": true,
+        "DEFAULT_LANDING_PAGE": "KARE"
+    }
+]
